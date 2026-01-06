@@ -1,7 +1,11 @@
-import React from 'react'
+import { SpaceScene } from '@/shared/ui/space-scene/SpaceScene'
+
+import styles from './page.module.css'
 
 export default function Home() {
   return (
-    <div>Home</div>
+    <main className={styles.page}>
+      <SpaceScene />
+    </main>
   )
 }
