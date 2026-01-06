@@ -270,7 +270,6 @@ export const SpaceScene = () => {
         </div>
       )}
 
-      {/* Орбита (пунктир) - TODO: Проверить в Figma нужна ли орбита */}
       {isEarthOrbiting && !isEarthZoomed && (
         <motion.div
           className={styles.orbit}
